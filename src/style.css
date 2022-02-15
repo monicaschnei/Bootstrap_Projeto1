@@ -1,0 +1,99 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header .navbar{
+    background-color: #553388;
+}
+
+.logo{
+    width: 10vw;
+}
+
+.navbar-btn{
+    border:unset;
+    z-index: 1;
+    margin-right: 6vw;
+}
+
+.navbar-collapse{
+    display: grid;
+}
+
+.navbar-nav{
+    align-items: center;
+    
+}
+.nav-item{
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: gray;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.nav-item a:hover {
+    color: darkred;
+}
+
+.navbar-collapse .active{
+    width: 100vw;
+}
+
+
+.navbar-toggler:focus{
+    box-shadow: unset;
+}
+
+.container-fluid{
+    width: 100vw;
+    padding: 0;     
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.carousel__imagem{
+    height: 80vh;
+    object-fit: cover;
+    object-position: 0 50%;
+}
+
+.fonte__titulo{
+    font-family: 'Pacifico', cursive;
+    color: #Fff;
+    align-items: center;
+}
+
+.fonte__titulo2{
+    font-family: 'Pacifico', cursive;
+    color: darkred;
+    align-items: center;
+}
+
+.imagem{
+    width: 50%;
+  
+}
+
+.card__largura{
+    max-width: 18rem;
+}
+
+.botao__cor-especial{
+    background-color: darkred;
+    color: white;
+}
+
+.borda__cor-especial{
+    border-color: darkred;
+}
+
+.card__posicao-imagem{
+    object-fit: cover;
+    height: 12.5rem;
+}
